@@ -1,67 +1,101 @@
-<html> 
-<head>
-    <title>
-    createyour stuningwebsite
-    </title>
-    <style>
-        #main {
-            background-image: url(http://cdn4.wpbeginner.com/wp-content/uploads/2016/09/strongpasswords.jpg);
-            height: 400px;
-            padding-left: 20px;
-            display: flex;
-        }
-        .section {
-            flex: 1;
-        }
-         h1{font-family: fantasy;
-            color: white;
-            font-size: 50px;
-        }
-        p{color: white;
-        font-size-adjust: 100px;}
-        a{color: white;
-        font-size: 30px; 
-            background-color: aqua;
-            padding: 10px;
-            text-decoration: none;
-        }
-        #buttonLink {
-            padding-top: 80px;
-        }
-        #main-header {
-            padding-top: 70px;
-        }
-        #leftlink:{padding-right: 300 }
-        #rightSection {
-            text-align: right;
-            margin-right:100spx;
-            margin-top: 30px;
-            text-align: left;
-    
-        }
-    </style>
+
+<html>
+    <head>
+<title>
+List of Fish Species -- Fish Photos</title>
+<style type="text/css">
+    body{ background-color:darkgray;
+    }
+
+    #hiii {
+        font-size-adjust: 80%;
+        font: color:darkseagreen;
+        padding: 50px;
+        text-align: center;
+        border: 1px solid gray;
+    }
+    body {
+        border: 1px solid gray;
+        padding: 20px;
+        margin: 30px;
+        margin-top: 10px;
+    }
+    .parent {
+        display: flex;
+        padding: 10px;
+    }
+    .childP {
+        flex: 6;
+        padding: 20px;
+        text-align: center;
+    }
+    .childImg {
+        flex: 1;
+        border-radius: 20px;
+       
+    } 
+    </style>    
     </head>
     <body>
-        <div id="main">
-            <div class="section">
-                <h1 id="main-header">
-                createyour stuning website
-            </h1>
+        <div >
+        <h2 id="hiii"  >
+            List of Fish Species -- Fish Photos
+        </h2 >
+    </div>
+        
+        <div>
             
-            <p>
-                WordPress.com powers beautiful websites for businesses, professionals, and bloggers
-            </p>
-            <div id="buttonLink">
-                <a  
-                        href="http://google.com">Click here</a>
-            </div>
+            <div class="parent">
+                <img class="childImg" src=http://www.oceanlight.com/photo/scissortail-sergeant-major-12939.jpg>
+                <P class="childP"> Holacanthus clarionensis
+                    Clarion angelfish
+                 Range: Eastern Central Pacific: southern tip of Baja California, Mexico; also from Clarion, and the Revillagigedo Group off the western coast of Mexico and from Clipperton Island
+                 Synonyms: Clarion angel fish, Holocanthus clarionensis
+                </P>
+            
                 
             </div>
-            <div id="rightSection" class="section">
-                <a 
-               href="http://google.com">log on</a>
+            <div class="parent">
+        <img class="childImg" src=http://www.oceanlight.com/photo/wahoo-acanthocybium-05764.jpg>
+            
+            <p class="childP">Acanthocybium
+                            Wahoo
+            Range: Atlantic, Indian and Pacific: in tropical and subtropical waters, including the Caribbean and Mediterranean seas.
+              Synonyms: ono
+            </p>
             </div>
+            <div class= "parent">
+             <img id="childImg" 
+                  src=http://www.oceanlight.com/photo/blue-tang-surgeonfish-08677.jpg>
+            <p class="childP">Acanthurus coeruleus
+               Blue tang surgeonfish
+               Range: Western Atlantic: New York, USA and Bermuda to the Gulf of  Mexico and Brazil. Eastern Atlantic: Ascension Island
+            </p>
+             </div>
+            <div class= "parent">
+             <img class="childImg"
+                  src=http://www.oceanlight.com/photo/eyestripe-surgeonfish-08717.jpg>
+            <p class="childP">Acanthurus dussumieri
+               Eyestripe surgeonfish
+               Range: Indo-Pacific: East Africa to the Hawaiian and Line Islands, north to southern Japan, south to Rowley Shoals, southern Great Barrier Reef and Lord Howe Island, Guam in Micronesia; absent from most of central Pacific. Mascarene Island
+            </p>
+                </div>
+            <div class= "parent">
+             <img class="childImg" src=http://www.oceanlight.com/photo/enoplosus-armatus-old-wife-09239.jpg>
+            <p class="childP">Acanthurus japonicus
+              Japan surgeonfish
+              Range: Indo-Pacific.
+             Synonyms: Japanese surgeonfish, powder-black surgeon
+            </p>
+                </div>
+            <div class= "parent">
+               <img class="childImg "src= http://www.oceanlight.com/photo/black-perch-03434.jpg>
+            <p class="childP">Forcipiger flavissimus
+               Yellow longnose butterflyfish
+               Range: Indo-Pacific: Red Sea and East Africa (Ref. 12484) to the Hawaiian and Easter islands, north to southern Japan, south to Lord Howe Island; throughout Micronesia. Eastern Pacific: southern Baja California, Mexico and from the Revillagigedo and Galapagos Islands
+               Synonyms: forceps butterflyfish, yellow long-nose butterfly
+                      </p>
+                </div>
         </div>
-        
-    </body>
+     </body>
 </html>
